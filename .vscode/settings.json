@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": false,
+                    "ca": "/Users/spencerhoag/Downloads/ca-certificate.crt"
+                }
+            },
+            "previewLimit": 50,
+            "server": "csci-601-spring-2025-db-do-user-4683876-0.f.db.ondigitalocean.com",
+            "port": 25060,
+            "driver": "PostgreSQL",
+            "name": "601",
+            "database": "shoag",
+            "username": "shoag",
+            "password": "AVNS_uA58QWrpsOrky50LUIp"
+        }
+    ]
+}
