@@ -15,16 +15,16 @@ INSERT INTO hotel.hotel VALUES
 
 
 INSERT INTO hotel.employee VALUES 
-('123456789', 'John', 'Doe', 40, 'Front Desk', NULL, '2022-06-15', 50000.00),
-('987654321', 'Jane', 'Smith', 35, 'Housekeeping', '123456789', '2021-08-10', 42000.00),
-('456789123', 'Alice', 'Brown', 30, 'Maintenance', '123456789', '2023-01-20', 48000.00),
-('789123456', 'Bob', 'Wilson', 40, 'Front Desk', '987654321', '2020-11-05', 51000.00),
-('321654987', 'Charlie', 'Davis', 38, 'Security', '123456789', '2019-07-12', 45000.00),
-('159357258', 'Emma', 'Garcia', 42, 'Housekeeping', '987654321', '2021-09-25', 43000.00),
-('852741963', 'David', 'Lopez', 37, 'Kitchen', '123456789', '2022-04-30', 47000.00),
-('963258741', 'Olivia', 'Martinez', 39, 'Front Desk', '789123456', '2020-10-18', 49000.00),
-('741852963', 'Ethan', 'Hernandez', 41, 'Maintenance', '456789123', '2018-06-21', 52000.00),
-('369147258', 'Sophia', 'Moore', 36, 'Security', '321654987', '2019-12-14', 44000.00);
+('123456789', 'John', 'Doe', 40, 'Front Desk', NULL, '2022-06-15', 50000.00, '123 Main St'),
+('987654321', 'Jane', 'Smith', 35, 'Housekeeping', '123456789', '2021-08-10', 42000.00, '456 Elm St'),
+('456789123', 'Alice', 'Brown', 30, 'Maintenance', '123456789', '2023-01-20', 48000.00, '789 Oak St'),
+('789123456', 'Bob', 'Wilson', 40, 'Front Desk', '987654321', '2020-11-05', 51000.00, '101 Maple St'),
+('321654987', 'Charlie', 'Davis', 38, 'Security', '123456789', '2019-07-12', 45000.00, '202 Pine St'),
+('159357258', 'Emma', 'Garcia', 42, 'Housekeeping', '987654321', '2021-09-25', 43000.00, '303 Cedar St'),
+('852741963', 'David', 'Lopez', 37, 'Kitchen', '123456789', '2022-04-30', 47000.00, '404 Birch St'),
+('963258741', 'Olivia', 'Martinez', 39, 'Front Desk', '789123456', '2020-10-18', 49000.00, '505 Walnut St'),
+('741852963', 'Ethan', 'Hernandez', 41, 'Maintenance', '456789123', '2018-06-21', 52000.00, '606 Cherry St'),
+('369147258', 'Sophia', 'Moore', 36, 'Security', '321654987', '2019-12-14', 44000.00, '707 Aspen St');
 
 
 INSERT INTO hotel.customer VALUES 
