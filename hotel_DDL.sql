@@ -2,7 +2,6 @@ CREATE SCHEMA IF NOT EXISTS hotel;
 SET search_path TO hotel; 
 
 
-
 CREATE TABLE IF NOT EXISTS hotel.hotel (
     address VARCHAR(50) PRIMARY KEY,
     total_rooms INT NOT NULL,
