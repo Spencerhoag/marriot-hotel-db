@@ -78,6 +78,7 @@ INSERT INTO hotel.room VALUES
 (DEFAULT, '606 Cherry St', 'Standard', 'Mountain View', 2, 145.00),
 (DEFAULT, '707 Aspen St', 'Suite', 'Forest View', 5, 120.00);
 
+
 INSERT INTO hotel.requires (hotel_address, date_requested) VALUES 
 ('123 Main St', '2025-06-02'),
 ('456 Elm St', '2025-07-11'),
@@ -91,14 +92,14 @@ INSERT INTO hotel.requires (hotel_address, date_requested) VALUES
 ('707 Aspen St', '2026-02-11');
 
 
-INSERT INTO hotel.booked (room_number, reservation_id, hotel_address, date_range) VALUES 
-(1, 1, '123 Main St', '2025-06-01'),
-(2, 2, '456 Elm St', '2025-07-10'),
-(3, 3, '789 Oak St', '2025-08-20'),
-(4, 4, '101 Maple St', '2025-09-05'),
-(5, 5, '202 Pine St', '2025-10-15'),
-(6, 6, '303 Cedar St', '2025-11-01'),
-(7, 7, '404 Birch St', '2025-12-10'),
-(8, 8, '505 Walnut St', '2025-12-20'),
-(9, 9, '606 Cherry St', '2026-01-05'),
-(10, 10, '707 Aspen St', '2026-02-10');
+INSERT INTO hotel.booked (room_number, reservation_id, hotel_address, start_date, end_date) VALUES 
+(1, 1, '123 Main St', '2025-06-01', '2025-06-05'),
+(2, 2, '456 Elm St', '2025-07-10', '2025-07-15'),
+(3, 3, '789 Oak St', '2025-08-20', '2025-08-25'),
+(4, 4, '101 Maple St', '2025-09-05', '2025-09-10'),
+(5, 5, '202 Pine St', '2025-10-15', '2025-10-20'),
+(6, 6, '303 Cedar St', '2025-11-01', '2025-11-05'),
+(7, 7, '404 Birch St', '2025-12-10', '2025-12-15'),
+(8, 8, '505 Walnut St', '2025-12-20', '2025-12-25'),
+(9, 9, '606 Cherry St', '2026-01-05', '2026-01-10'),
+(10, 10, '707 Aspen St', '2026-02-10', '2026-02-15');

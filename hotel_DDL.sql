@@ -91,7 +91,8 @@ CREATE TABLE IF NOT EXISTS hotel.booked (
     room_number SERIAL,
     reservation_id SERIAL,
     hotel_address VARCHAR(50),
-    date_range DATE NOT NULL,
+    start_date DATE NOT NULL,
+    end_date DATE NOT NULL,
     PRIMARY KEY (room_number, reservation_id, hotel_address),
     FOREIGN KEY (room_number, hotel_address) REFERENCES room(room_number, hotel_address)
     ON DELETE RESTRICT ON UPDATE CASCADE,
